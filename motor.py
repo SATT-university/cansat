@@ -6,6 +6,8 @@ motor1_pin = 5
 motor2_pin = 6
 motor3_pin = 13
 motor4_pin = 19
+
+#変更点を加えたときgitの機能でそれが保存されます．
 def go(second):
     if second == 0:
         print("回転")
